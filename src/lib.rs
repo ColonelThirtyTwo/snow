@@ -82,6 +82,7 @@ pub mod types;
 
 pub use crate::{
     builder::{Builder, Keypair},
+    constants::{MAXMSGLEN, TAGLEN},
     error::Error,
     handshakestate::HandshakeState,
     stateless_transportstate::StatelessTransportState,
